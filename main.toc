@@ -1,0 +1,94 @@
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {russian}{}\relax 
+\contentsline {section}{ВВЕДЕНИЕ}{11}{section*.5}%
+\contentsline {section}{\numberline {1}Анализ предметной области}{14}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Описание предметной области}{14}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Методология Agile}{15}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Методология Kanban}{17}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}IT в России}{19}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Динамика и перспективы развития IT-сферы}{21}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Техническое задание}{23}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Основание для разработки}{23}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Цель и назначение разработки}{23}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Актуальность темы разработки}{24}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Этапы разработки}{25}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Требования к программной системе}{25}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Требования к данным}{25}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Функциональные требования}{26}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Сценарий прецедента «Регистрация»}{27}{subsubsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.5.4}Сценарий прецедента «Аутентификация»}{28}{subsubsection.2.5.4}%
+\contentsline {subsubsection}{\numberline {2.5.5}Сценарий прецедента «Выход из системы»}{28}{subsubsection.2.5.5}%
+\contentsline {subsubsection}{\numberline {2.5.6}Сценарий прецедента «Просмотр профиля»}{29}{subsubsection.2.5.6}%
+\contentsline {subsubsection}{\numberline {2.5.7}Сценарий прецедента «Редактирование профиля»}{29}{subsubsection.2.5.7}%
+\contentsline {subsubsection}{\numberline {2.5.8}Сценарий прецедента «Удаление профиля»}{29}{subsubsection.2.5.8}%
+\contentsline {subsubsection}{\numberline {2.5.9}Сценарий прецедента «Создание нового проекта»}{30}{subsubsection.2.5.9}%
+\contentsline {subsubsection}{\numberline {2.5.10}Сценарий прецедента «Редактирование проекта»}{30}{subsubsection.2.5.10}%
+\contentsline {subsubsection}{\numberline {2.5.11}Сценарий прецедента «Удаление проекта»}{31}{subsubsection.2.5.11}%
+\contentsline {subsubsection}{\numberline {2.5.12}Сценарий прецедента «Управление участниками проекта»}{31}{subsubsection.2.5.12}%
+\contentsline {subsubsection}{\numberline {2.5.13}Сценарий прецедента «Создание доски»}{32}{subsubsection.2.5.13}%
+\contentsline {subsubsection}{\numberline {2.5.14}Сценарий прецедента «Редактирование доски»}{33}{subsubsection.2.5.14}%
+\contentsline {subsubsection}{\numberline {2.5.15}Сценарий прецедента «Удаление доски»}{33}{subsubsection.2.5.15}%
+\contentsline {subsubsection}{\numberline {2.5.16}Сценарий прецедента «Изменение порядка досок»}{33}{subsubsection.2.5.16}%
+\contentsline {subsubsection}{\numberline {2.5.17}Сценарий прецедента «Создание  задачи»}{34}{subsubsection.2.5.17}%
+\contentsline {subsubsection}{\numberline {2.5.18}Сценарий прецедента «Просмотр задачи»}{34}{subsubsection.2.5.18}%
+\contentsline {subsubsection}{\numberline {2.5.19}Сценарий прецедента «Редактирование задачи»}{35}{subsubsection.2.5.19}%
+\contentsline {subsubsection}{\numberline {2.5.20}Сценарий прецедента «Удаление задачи»}{35}{subsubsection.2.5.20}%
+\contentsline {subsubsection}{\numberline {2.5.21}Сценарий прецедента «Перемещение задачи»}{36}{subsubsection.2.5.21}%
+\contentsline {subsection}{\numberline {2.6}Требования пользователя к интерфейсу web-интерфейса}{36}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Нефункциональные требования}{37}{subsection.2.7}%
+\contentsline {subsubsection}{\numberline {2.7.1}Требования к программному обеспечению}{37}{subsubsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.8}Ограничения}{37}{subsection.2.8}%
+\contentsline {subsubsection}{\numberline {2.8.1}Требования к аппаратному обеспечению}{38}{subsubsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.9}Требования к оформлению документации}{38}{subsection.2.9}%
+\contentsline {section}{\numberline {3}Технический проект}{39}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Общая характеристика организации решения задачи}{39}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Обоснование выбора технологии проектирования}{39}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Язык программирования JavaScript}{39}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Среда выполнения Node.js}{40}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Библиотека React}{40}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}PostgreSQL}{40}{subsubsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.3}Диаграмма компонентов}{40}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Структура программы}{42}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Клиентская часть}{42}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Серверная часть}{45}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}Клиентские сервисы}{45}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}Управление состоянием и стилизация}{46}{subsubsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.5}Точка входа и конфигурация БД}{46}{subsubsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.5}Структура базы данных}{48}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Рабочий проект}{55}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Спецификация системы}{55}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Модуль App.jsx}{55}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Модуль index.css}{56}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Модуль main.jsx}{56}{subsubsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.4}Модуль store.js}{57}{subsubsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.5}Модуль projectsPanel.jsx}{58}{subsubsection.4.1.5}%
+\contentsline {subsubsection}{\numberline {4.1.6}Модуль settingsPanel.jsx}{59}{subsubsection.4.1.6}%
+\contentsline {subsubsection}{\numberline {4.1.7}Модуль authPage.jsx}{59}{subsubsection.4.1.7}%
+\contentsline {subsubsection}{\numberline {4.1.8}Модуль taskPage.jsx}{61}{subsubsection.4.1.8}%
+\contentsline {subsubsection}{\numberline {4.1.9}Модуль userProfilePage.jsx}{61}{subsubsection.4.1.9}%
+\contentsline {subsubsection}{\numberline {4.1.10}Модуль layoutObject.jsx}{62}{subsubsection.4.1.10}%
+\contentsline {subsubsection}{\numberline {4.1.11}Модуль taskObject.jsx}{63}{subsubsection.4.1.11}%
+\contentsline {subsubsection}{\numberline {4.1.12}Модуль tooltipObject.jsx}{64}{subsubsection.4.1.12}%
+\contentsline {subsubsection}{\numberline {4.1.13}Модуль boardObject.jsx}{64}{subsubsection.4.1.13}%
+\contentsline {subsubsection}{\numberline {4.1.14}Модуль editBoardModal.jsx}{65}{subsubsection.4.1.14}%
+\contentsline {subsubsection}{\numberline {4.1.15}Модуль editProfileModal.jsx}{66}{subsubsection.4.1.15}%
+\contentsline {subsubsection}{\numberline {4.1.16}Модуль editProjectModal.jsx}{66}{subsubsection.4.1.16}%
+\contentsline {subsubsection}{\numberline {4.1.17}Модуль editTaskModal.jsx}{67}{subsubsection.4.1.17}%
+\contentsline {subsubsection}{\numberline {4.1.18}Модуль manageMembersModal.jsx}{68}{subsubsection.4.1.18}%
+\contentsline {subsubsection}{\numberline {4.1.19}Модуль modalObject.jsx}{69}{subsubsection.4.1.19}%
+\contentsline {subsubsection}{\numberline {4.1.20}Модуль addBoardModal.jsx}{70}{subsubsection.4.1.20}%
+\contentsline {subsubsection}{\numberline {4.1.21}Модуль addProjectModal.jsx}{70}{subsubsection.4.1.21}%
+\contentsline {subsubsection}{\numberline {4.1.22}Модуль alertModal.jsx}{71}{subsubsection.4.1.22}%
+\contentsline {subsubsection}{\numberline {4.1.23}Модуль confirmModal.jsx}{72}{subsubsection.4.1.23}%
+\contentsline {subsubsection}{\numberline {4.1.24}Модуль server.js}{72}{subsubsection.4.1.24}%
+\contentsline {subsubsection}{\numberline {4.1.25}Модуль tokenService.js}{73}{subsubsection.4.1.25}%
+\contentsline {subsubsection}{\numberline {4.1.26}Модуль apiService.js}{73}{subsubsection.4.1.26}%
+\contentsline {subsection}{\numberline {4.2}Функциональное тестирование веб-приложения}{74}{subsection.4.2}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{96}{section*.55}%
+\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{96}{Item.213}%
+\contentsline {section}{ПРИЛОЖЕНИЕ А\ Представление графического материала}{103}{section*.57}%
+\contentsline {section}{ПРИЛОЖЕНИЕ Б\ Фрагменты исходного кода программы}{110}{section*.64}%
+\contentsline {section}{На отдельных листах (CD-RW в прикрепленном конверте)}{118}{lstnumber.-1.337}%
