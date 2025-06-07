@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.12.21)  7 JUN 2025 01:15
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.12.21)  7 JUN 2025 17:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -788,8 +788,8 @@ Underfull \hbox (badness 1102) in paragraph at lines 32--33
  []
 
 [16] [17] [18] [19] [20] [21]) (ТехЗадание.tex [22] [23] [24] [25] [26]
-File: images/use_case_diagram.eps Graphic file (type eps)
-<images/use_case_diagram.eps>
+File: use_case_diagram.eps Graphic file (type eps)
+<use_case_diagram.eps>
 
 Underfull \hbox (badness 10000) in paragraph at lines 95--96
 []\TU/TimesNewRoman(0)/m/n/14.4 Пользователь переходит на страницу аутентификац
@@ -836,504 +836,1228 @@ Underfull \hbox (badness 2020) in paragraph at lines 16--17
  []
 
 [39]
-File: images/components_diagram.eps Graphic file (type eps)
-<images/components_diagram.eps>
- [40] [41] [42] [43] [44] [45] [46]
-File: images/modules_diagram.eps Graphic file (type eps)
-<images/modules_diagram.eps>
-File: images/er_diagram.eps Graphic file (type eps)
-<images/er_diagram.eps>
- [47]
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+File: components_diagram.eps Graphic file (type eps)
+<components_diagram.eps>
+ [40] [41] [42] [43] [44] [45] [46] [47]
+File: modules_diagram.eps Graphic file (type eps)
+<modules_diagram.eps>
+
+
+LaTeX Warning: Float too large for page by 6.24036pt on input line 114.
+
+[48]
+File: er_diagram.eps Graphic file (type eps)
+<er_diagram.eps>
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 []|\TU/TimesNewRoman(0)/m/n/14.4 Адрес электронной почты
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 []|\TU/TimesNewRoman(0)/m/n/14.4 password_
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 []|\TU/TimesNewRoman(0)/m/n/14.4 middle_
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 []|\TU/TimesNewRoman(0)/m/n/14.4 timestamp with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
+Underfull \hbox (badness 10000) in paragraph at lines 144--144
 []|\TU/TimesNewRoman(0)/m/n/14.4 timestamp with
  []
 
-[48]
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+[49
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 []|\TU/TimesNewRoman(0)/m/n/14.4 owner_
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 \TU/TimesNewRoman(0)/m/n/14.4 users(user_id). Идентифика-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 \TU/TimesNewRoman(0)/m/n/14.4 тор пользователя-владельца
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 []|\TU/TimesNewRoman(0)/m/n/14.4 timestamp with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
-[]|\TU/TimesNewRoman(0)/m/n/14.4 timestamp with
- []
-
-[49]
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
-[]|\TU/TimesNewRoman(0)/m/n/14.4 project_
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Внешний ключ, ссылает-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
-\TU/TimesNewRoman(0)/m/n/14.4 ся на projects(project_id).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 []|\TU/TimesNewRoman(0)/m/n/14.4 timestamp with
  []
 
 [50]
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
-\TU/TimesNewRoman(0)/m/n/14.4 projects(project_id). Иденти-
+Underfull \hbox (badness 3482) in paragraph at lines 163--164
+[]\TU/TimesNewRoman(0)/m/n/14.4 В таблице []3.3[] приведено описание атрибутов 
+сущности «Project
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
-[]|\TU/TimesNewRoman(0)/m/n/14.4 display_
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+[]|\TU/TimesNewRoman(0)/m/n/14.4 project_
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
-[]|\TU/TimesNewRoman(0)/m/n/14.4 timestamp with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
-[]|\TU/TimesNewRoman(0)/m/n/14.4 timestamp with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
-[]|\TU/TimesNewRoman(0)/m/n/14.4 priority_
- []
-
-[51]
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Название типа задачи (на-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
-\TU/TimesNewRoman(0)/m/n/14.4 пример, ’FRONTEND’,
- []
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 236--236
-\TU/TimesNewRoman(0)/m/n/14.4 тор доски, на которой нахо-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-\TU/TimesNewRoman(0)/m/n/14.4 projects(project_id). Иденти-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Внешний ключ, ссылается
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-\TU/TimesNewRoman(0)/m/n/14.4 на task_priorities(priority_id).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-\TU/TimesNewRoman(0)/m/n/14.4 Идентификатор приоритета
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
 []|\TU/TimesNewRoman(0)/m/n/14.4 Внешний ключ, ссылает-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-\TU/TimesNewRoman(0)/m/n/14.4 ся на task_types(type_id).
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+\TU/TimesNewRoman(0)/m/n/14.4 ся на projects(project_id).
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+[]|\TU/TimesNewRoman(0)/m/n/14.4 timestamp with
+ []
+
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+\TU/TimesNewRoman(0)/m/n/14.4 projects(project_id). Иденти-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
 []|\TU/TimesNewRoman(0)/m/n/14.4 display_
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+[]|\TU/TimesNewRoman(0)/m/n/14.4 timestamp with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+[]|\TU/TimesNewRoman(0)/m/n/14.4 timestamp with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+[]\TU/TimesNewRoman(0)/m/n/14.4 В таблице []3.5[] приведено описание атрибутов 
+сущности «Task
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+[]|\TU/TimesNewRoman(0)/m/n/14.4 priority_
+ []
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Название типа задачи (на-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--221
+\TU/TimesNewRoman(0)/m/n/14.4 пример, ’FRONTEND’,
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 246--246
+\TU/TimesNewRoman(0)/m/n/14.4 тор доски, на которой нахо-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/TimesNewRoman(0)/m/n/14.4 projects(project_id). Иденти-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Внешний ключ, ссылается
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/TimesNewRoman(0)/m/n/14.4 на task_priorities(priority_id).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/TimesNewRoman(0)/m/n/14.4 Идентификатор приоритета
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Внешний ключ, ссылает-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+\TU/TimesNewRoman(0)/m/n/14.4 ся на task_types(type_id).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
+[]|\TU/TimesNewRoman(0)/m/n/14.4 display_
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 []|\TU/TimesNewRoman(0)/m/n/14.4 author_
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 []|\TU/TimesNewRoman(0)/m/n/14.4 developer_
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 []|\TU/TimesNewRoman(0)/m/n/14.4 timestamp with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 []|\TU/TimesNewRoman(0)/m/n/14.4 timestamp with
  []
 
-[52] [53]) (РабочийПроект.tex [54]
-Overfull \hbox (20.23886pt too wide) in paragraph at lines 23--23
-[]|\TU/TimesNewRoman(0)/m/n/14.4 isAddProjectModalOpenFromEmptyState| 
+[53] [54]) (РабочийПроект.tex [55]
+Underfull \hbox (badness 1107) in paragraph at lines 23--23
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Логический флаг, указывающий, когда приложение
+
  []
 
 
-Underfull \hbox (badness 3701) in paragraph at lines 23--23
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Логический флаг для управления
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 23--23
-\TU/TimesNewRoman(0)/m/n/14.4 вить проект, когда у пользователя
+Overfull \hbox (3.77252pt too wide) in paragraph at lines 23--23
+[]|\TU/TimesNewRoman(0)/m/n/14.4 isAddProjectModal-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Состояние для модального окна
+\TU/TimesNewRoman(0)/m/n/14.4 OpenFromEmpty-
+ []
+
+
+Underfull \hbox (badness 7291) in paragraph at lines 23--23
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Состояние для модального окна оповещения об
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 23--23
+[]|\TU/TimesNewRoman(0)/m/n/14.4 ID текущего выбранного проекта, полученный из
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\TU/TimesNewRoman(0)/m/n/14.4 оповещения об истечении срока
+[]|\TU/TimesNewRoman(0)/m/n/14.4 logoutConfirmMo-
+ []
+
+[56]
+Overfull \hbox (2.95691pt too wide) in paragraph at lines 53--53
+[]|\TU/TimesNewRoman(0)/m/n/14.4 mainLogoutHandler| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-\TU/TimesNewRoman(0)/m/n/14.4 действия токена, полученное из
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Состояние для модального окна
- []
-
-
-Underfull \hbox (badness 1953) in paragraph at lines 23--23
-[]|\TU/TimesNewRoman(0)/m/n/14.4 ID текущего выбранного проекта,
- []
-
-
-Underfull \hbox (badness 2990) in paragraph at lines 23--23
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Счетчик, который при изменении
- []
-
-
-Underfull \hbox (badness 2142) in paragraph at lines 23--23
-\TU/TimesNewRoman(0)/m/n/14.4 тивное представление в приложе-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Состояние для модального окна
- []
-
-[55] [56]
-Underfull \hbox (badness 2126) in paragraph at lines 64--64
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Объект для управления состояни-
+Underfull \hbox (badness 10000) in paragraph at lines 53--53
+[]|\TU/TimesNewRoman(0)/m/n/14.4 logoutConfirmMo-
  []
 
 [57] [58]
-Underfull \hbox (badness 3701) in paragraph at lines 93--93
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Логический флаг для управления
+Overfull \hbox (1.51988pt too wide) in paragraph at lines 65--65
+[]|\TU/TimesNewRoman(0)/m/n/14.4 selectedProjectId-
  []
 
 
-Underfull \hbox (badness 3701) in paragraph at lines 93--93
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Логический флаг для управления
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+[]|\TU/TimesNewRoman(0)/m/n/14.4 isAddBoardModal-
  []
 
 
-Underfull \hbox (badness 3701) in paragraph at lines 93--93
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Логический флаг для управления
+Overfull \hbox (3.77252pt too wide) in paragraph at lines 80--80
+[]|\TU/TimesNewRoman(0)/m/n/14.4 isAddProjectModal-
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 93--93
-\TU/TimesNewRoman(0)/m/n/14.4 видимостью модального окна Ре-
+Overfull \hbox (2.97096pt too wide) in paragraph at lines 80--80
+[]|\TU/TimesNewRoman(0)/m/n/14.4 isEditProjectModal-
  []
 
 
-Underfull \hbox (badness 3701) in paragraph at lines 93--93
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Логический флаг для управления
+Overfull \hbox (1.35378pt too wide) in paragraph at lines 80--80
+[]|\TU/TimesNewRoman(0)/m/n/14.4 isManageMembers-
+ []
+
+[59]
+Overfull \hbox (1.59985pt too wide) in paragraph at lines 108--108
+[]|\TU/TimesNewRoman(0)/m/n/14.4 generalSubmitErr-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
-\TU/TimesNewRoman(0)/m/n/14.4 видимостью модального окна
+Overfull \hbox (3.52641pt too wide) in paragraph at lines 108--108
+[]|\TU/TimesNewRoman(0)/m/n/14.4 showPasswordCri-
+ []
+
+[60]
+Underfull \hbox (badness 1122) in paragraph at lines 122--122
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Объект для управления состоянием модального ок
+на
  []
 
 
-Underfull \hbox (badness 3701) in paragraph at lines 122--122
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Логический флаг для управления
+Overfull \hbox (2.80438pt too wide) in paragraph at lines 122--122
+[]|\TU/TimesNewRoman(0)/m/n/14.4 isEditModalOpen| 
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 122--122
-\TU/TimesNewRoman(0)/m/n/14.4 видимостью списка требований к
- []
-
-[59] [60]
-Underfull \hbox (badness 3701) in paragraph at lines 137--137
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Логический флаг для управления
+Overfull \hbox (1.1872pt too wide) in paragraph at lines 122--122
+[]|\TU/TimesNewRoman(0)/m/n/14.4 isDeleteConfirm-
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 137--137
-\TU/TimesNewRoman(0)/m/n/14.4 видимостью модального окна Ре-
+Overfull \hbox (2.80438pt too wide) in paragraph at lines 138--138
+[]|\TU/TimesNewRoman(0)/m/n/14.4 isEditModalOpen| 
  []
 
 
-Underfull \hbox (badness 3701) in paragraph at lines 137--137
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Логический флаг для управления
+Overfull \hbox (1.1872pt too wide) in paragraph at lines 138--138
+[]|\TU/TimesNewRoman(0)/m/n/14.4 isDeleteConfirm-
  []
 
 [61]
-Underfull \hbox (badness 3386) in paragraph at lines 154--154
-\TU/TimesNewRoman(0)/m/n/14.4 гда извлекаются данные профиля
- []
-
-
-Underfull \hbox (badness 4569) in paragraph at lines 154--154
-\TU/TimesNewRoman(0)/m/n/14.4 ке, возникающее при извлечении
- []
-
-
-Underfull \hbox (badness 3701) in paragraph at lines 154--154
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Логический флаг для управления
- []
-
-
-Underfull \hbox (badness 2932) in paragraph at lines 154--154
-\TU/TimesNewRoman(0)/m/n/14.4 видимостью модального окна Ре-
- []
-
-
-Underfull \hbox (badness 3701) in paragraph at lines 154--154
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Логический флаг для управления
- []
-
-
-Underfull \hbox (badness 1540) in paragraph at lines 154--154
-\TU/TimesNewRoman(0)/m/n/14.4 ния (показать, сообщение, заголо-
- []
-
-
-Underfull \hbox (badness 3701) in paragraph at lines 167--167
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Логический флаг для управления
+Overfull \hbox (4.19656pt too wide) in paragraph at lines 150--150
+[]|\TU/TimesNewRoman(0)/m/n/14.4 isAddTaskModal-
  []
 
 [62]
-Underfull \hbox (badness 1194) in paragraph at lines 191--191
-[]\TU/TimesNewRoman(0)/m/n/14.4 Таблица 4.11 – Описание параметров функции getC
+Underfull \hbox (badness 1127) in paragraph at lines 172--172
+[]\TU/TimesNewRoman(0)/m/n/14.4 Таблица 4.10 – Описание параметров функции getC
 ardBgColorByType в
  []
 
 
-Underfull \hbox (badness 5548) in paragraph at lines 202--202
-[]\TU/TimesNewRoman(0)/m/n/14.4 Таблица 4.12 – Описание параметров функции getU
+Underfull \hbox (badness 1092) in paragraph at lines 172--172
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Строковое значение типа задачи (например, FRON
+TEND,
+ []
+
+
+Underfull \hbox (badness 5726) in paragraph at lines 182--182
+[]\TU/TimesNewRoman(0)/m/n/14.4 Таблица 4.11 – Описание параметров функции getU
 serShortDisplay в
  []
 
 [63]
-Underfull \hbox (badness 3701) in paragraph at lines 215--215
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Логический флаг для управления
+Overfull \hbox (2.80438pt too wide) in paragraph at lines 206--206
+[]|\TU/TimesNewRoman(0)/m/n/14.4 isModalEditOpen| 
  []
 
 
-Underfull \hbox (badness 3701) in paragraph at lines 228--228
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Логический флаг для управления
- []
-
-
-Underfull \hbox (badness 2932) in paragraph at lines 228--228
-\TU/TimesNewRoman(0)/m/n/14.4 видимостью модального окна Ре-
+Overfull \hbox (3.05022pt too wide) in paragraph at lines 222--222
+[]|\TU/TimesNewRoman(0)/m/n/14.4 populatedFor-
  []
 
 [64]
-Underfull \hbox (badness 3701) in paragraph at lines 245--245
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Логический флаг для управления
+Overfull \hbox (3.24466pt too wide) in paragraph at lines 240--240
+[]|\TU/TimesNewRoman(0)/m/n/14.4 middleName| 
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 245--245
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Хранит сообщение, которое будет
+Overfull \hbox (6.04848pt too wide) in paragraph at lines 257--257
+[]|\TU/TimesNewRoman(0)/m/n/14.4 confirmDeleteModal-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--245
-\TU/TimesNewRoman(0)/m/n/14.4 отображаться в модальном окне
+Overfull \hbox (2.87035pt too wide) in paragraph at lines 257--257
+[]|\TU/TimesNewRoman(0)/m/n/14.4 populatedForProject-
  []
 
 [65]
-Underfull \hbox (badness 2126) in paragraph at lines 263--263
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Объект для управления состояни-
- []
-
-
-Underfull \hbox (badness 3701) in paragraph at lines 281--281
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Логический флаг для управления
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Хранит идентификатор проекта,
+Overfull \hbox (3.29439pt too wide) in paragraph at lines 278--278
+[]|\TU/TimesNewRoman(0)/m/n/14.4 populatedForTask-
  []
 
 [66]
-Underfull \hbox (badness 6316) in paragraph at lines 303--303
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Хранит уровень приоритета, вы-
- []
-
-
-Underfull \hbox (badness 3701) in paragraph at lines 303--303
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Логический флаг для управления
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Хранит минимально допустимую
- []
-
-[67]
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
-[]\TU/TimesNewRoman(0)/m/n/14.4 Таблица 4.19 – Описание состояний, используемых
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+[]\TU/TimesNewRoman(0)/m/n/14.4 Таблица 4.18 – Описание состояний, используемых
  в
  []
 
-[68]
-Underfull \hbox (badness 6316) in paragraph at lines 341--341
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Хранит уровень приоритета, вы-
+
+Overfull \hbox (4.58063pt too wide) in paragraph at lines 294--294
+[]|\TU/TimesNewRoman(0)/m/n/14.4 isLoadingMem-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--341
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Хранит минимально допустимую
+Overfull \hbox (2.50905pt too wide) in paragraph at lines 314--314
+[]|\TU/TimesNewRoman(0)/m/n/14.4 selectedBoardId| 
+ []
+
+[67]
+Overfull \hbox (4.83371pt too wide) in paragraph at lines 329--329
+[]|\TU/TimesNewRoman(0)/m/n/14.4 alertMessage| 
  []
 
 
-Underfull \hbox (badness 3701) in paragraph at lines 341--341
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Логический флаг для управления
+Overfull \hbox (1.35329pt too wide) in paragraph at lines 344--344
+[]|\TU/TimesNewRoman(0)/m/n/14.4 projectDescrip-
  []
 
-[69]
-Underfull \hbox (badness 3701) in paragraph at lines 357--357
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Логический флаг для управления
- []
-
-[70]
-Underfull \hbox (badness 2903) in paragraph at lines 389--389
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Строка для заголовка модального
- []
-
-[71]
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
-[]\TU/TimesNewRoman(0)/m/n/14.4 Таблица 4.24 – Описание параметров функции Conf
+[68] [69]
+Underfull \hbox (badness 10000) in paragraph at lines 377--377
+[]\TU/TimesNewRoman(0)/m/n/14.4 Таблица 4.23 – Описание параметров функции Conf
 irmModal в
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Функция обратного вызова, вы-
+Overfull \hbox (2.8979pt too wide) in paragraph at lines 377--377
+[]|\TU/TimesNewRoman(0)/m/n/14.4 confirmBut-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
-\TU/TimesNewRoman(0)/m/n/14.4 полняемая при подтверждении
+Underfull \hbox (badness 10000) in paragraph at lines 377--377
+[]|\TU/TimesNewRoman(0)/m/n/14.4 cancelBut-
+ []
+
+[70]
+Underfull \hbox (badness 2269) in paragraph at lines 409--409
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Функция обратного вызова для перехода к следую
+щему
  []
 
 
-Underfull \hbox (badness 2903) in paragraph at lines 408--408
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Строка для заголовка модального
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Создает новую
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 408--408
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Необязательный текст для кнопки
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 пользовате-
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 408--408
-[]|\TU/TimesNewRoman(0)/m/n/14.4 Необязательный текст для кнопки
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 ля. Аутенти-
  []
 
-[72]
-Underfull \hbox (badness 1810) in paragraph at lines 450--451
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 фикация не
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 firstName,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 lastName,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 email,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 password,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 опционально
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 201 Created
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 с объектом
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 пользователя
+ []
+
+
+Overfull \hbox (3.14188pt too wide) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Аутентифициру-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 и возвращает
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 JWT токен.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 Аутенти-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 фикация не
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 email,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 200 OK с
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 объектом
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 пользователя
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Получение
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 списка всех
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 пользователей
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 (id, email, име-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 на). Требуется
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 аутентифика-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 200 OK с
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 массивом
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 пользовате-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 филя текущего
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 пользовате-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 ля. Требуется
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 аутентифика-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Обновление
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 профиля теку-
+ []
+
+
+Underfull \hbox (badness 5119) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 щего пользова-
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 теля. Требуется
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 аутентифика-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 firstName,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 lastName,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 middleName,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 avatarUrl
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 (любое из
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 новленным
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 объектом
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Удаление про-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 филя текущего
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 пользовате-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 ля. Требуется
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 аутентифика-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 админа, своих
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 ля). Требуется
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 аутентифика-
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Создание ново-
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 буется аутенти-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 name,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 /api/projects/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Обновление
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 проекта. Тре-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 буется аутен-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 тификация
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 (Владелец/Ад-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 :projectId.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 Тело:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 name и/или
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 новленным
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 объектом
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 /api/projects/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Удаление про-
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 екта. Требуется
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 аутентификация
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 (Владелец/Ад-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 /api/projects/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 :projectId/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Получение
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 екта. Требуется
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 аутентификация
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 (Участник/Вла-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 /api/projects/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 :projectId/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Добавление
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 участника в
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 проект. Тре-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 буется аутен-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 тификация
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 (Владелец/Ад-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 :projectId.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 201 Created
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 с объектом
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 /api/projects/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 :projectId/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 members/
+ []
+
+
+Overfull \hbox (5.00732pt too wide) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 :memberUserId| 
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 ника из проек-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 та. Требуется
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 аутентификация
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 (Владелец/Ад-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 :projectId,
+ []
+
+
+Overfull \hbox (11.35452pt too wide) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 :memberUserId.| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Получение
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 досок для до-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 тов. Требуется
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 аутентифика-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Создание но-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 вой доски.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 Требуется
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 аутентификация
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 (Владелец/Ад-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 title,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 description,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 /api/boards/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Обновление
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 доски. Тре-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 буется аутен-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 тификация
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 (Владелец/Ад-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 :boardId.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 Тело: title,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 description,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 новленным
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 объектом
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 /api/boards/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Удаление дос-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 ки. Требуется
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 аутентификация
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 (Владелец/Ад-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 URL:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Получение
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 задач для до-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 тов. Требуется
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 аутентифика-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Создание но-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 вой задачи.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 Требуется
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 аутентифика-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 ция (Участник
+ []
+
+
+Underfull \hbox (badness 1701) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 boardId, title,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 description,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 dueDate,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 /api/tasks/
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Обновление за-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 аутентифика-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 ция (Участник
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 Тело: любое
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 новленным
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 объектом
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 /api/tasks/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]|\TU/TimesNewRoman(0)/m/n/14.4 Удаление зада-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 чи. Требуется
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+\TU/TimesNewRoman(0)/m/n/14.4 аутентификация
+ []
+
+[71] [72] [73] [74] [75]
+Underfull \hbox (badness 1810) in paragraph at lines 472--473
 []\TU/TimesNewRoman(0)/m/n/14.4 Модуль apiService.js реализует клиентский серви
 сный модуль, ко-
  []
 
-[73]
-Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[76]
+Underfull \hbox (badness 10000) in paragraph at lines 492--492
 []\TU/TimesNewRoman(0)/m/n/14.4 Таблица 4.29 – Описание параметров функции auth
 enticatedFetch в
  []
 
 File: images/окно_входа.png Graphic file (type bmp)
 <images/окно_входа.png>
-[74]
+[77]
 File: images/некорректные_данные.png Graphic file (type bmp)
 <images/некорректные_данные.png>
- [75]
+ [78]
 File: images/регистрация_окно.png Graphic file (type bmp)
 <images/регистрация_окно.png>
- [76]
+ [79]
 File: images/регистрация_некорректно.png Graphic file (type bmp)
 <images/регистрация_некорректно.png>
- [77]
+ [80]
 File: images/пароль_корректно.png Graphic file (type bmp)
 <images/пароль_корректно.png>
- [78]
+ [81]
 File: images/пароль_некорректно.png Graphic file (type bmp)
 <images/пароль_некорректно.png>
 File: images/регистрация_успешна.png Graphic file (type bmp)
 <images/регистрация_успешна.png>
- [79]
+ [82]
 File: images/окно_выхода.png Graphic file (type bmp)
 <images/окно_выхода.png>
 File: images/главная_страница.png Graphic file (type bmp)
 <images/главная_страница.png>
- [80]
+ [83]
 File: images/проект_создание.png Graphic file (type bmp)
 <images/проект_создание.png>
 File: images/список_проектов.png Graphic file (type bmp)
 <images/список_проектов.png>
- [81]
+ [84]
 File: images/проверка_надписи.png Graphic file (type bmp)
 <images/проверка_надписи.png>
 File: images/проект_создание_некорректно.png Graphic file (type bmp)
@@ -1344,12 +2068,12 @@ File: images/доска_создание_некорректно.png Graphic file
 <images/доска_создание_некорректно.png>
 File: images/доска_создание_успешно.png Graphic file (type bmp)
 <images/доска_создание_успешно.png>
- [82] [83]
+ [85] [86]
 File: images/доска_изменение.png Graphic file (type bmp)
 <images/доска_изменение.png>
 File: images/задача_создание.png Graphic file (type bmp)
 <images/задача_создание.png>
- [84]
+ [87]
 File: images/задача_некорректно_заголовок.png Graphic file (type bmp)
 <images/задача_некорректно_заголовок.png>
 File: images/задача_некорректно_дата.png Graphic file (type bmp)
@@ -1358,73 +2082,73 @@ File: images/задача_некорректно_доска.png Graphic file (ty
 <images/задача_некорректно_доска.png>
 File: images/задача_успешно.png Graphic file (type bmp)
 <images/задача_успешно.png>
- [85]
+ [88]
 File: images/проект_подтверждение_удаления.png Graphic file (type bmp)
 <images/проект_подтверждение_удаления.png>
- [86]
+ [89]
 File: images/перетаскивание_задачи_1.png Graphic file (type bmp)
 <images/перетаскивание_задачи_1.png>
 File: images/перетаскивание_задачи_2.png Graphic file (type bmp)
 <images/перетаскивание_задачи_2.png>
- [87]
+ [90]
 File: images/перетаскивание_доски_1.png Graphic file (type bmp)
 <images/перетаскивание_доски_1.png>
 File: images/перетаскивание_доски_2.png Graphic file (type bmp)
 <images/перетаскивание_доски_2.png>
 File: images/проект_изменение.png Graphic file (type bmp)
 <images/проект_изменение.png>
- [88]
+ [91]
 File: images/задача_просмотр.png Graphic file (type bmp)
 <images/задача_просмотр.png>
 File: images/назначение_на_роль.png Graphic file (type bmp)
 <images/назначение_на_роль.png>
 
-[89]
+[92]
 File: images/задача_изменение.png Graphic file (type bmp)
 <images/задача_изменение.png>
 File: images/задача_удаление.png Graphic file (type bmp)
 <images/задача_удаление.png>
- [90]
+ [93]
 File: images/управление_окно.png Graphic file (type bmp)
 <images/управление_окно.png>
 File: images/управление_удаление.png Graphic file (type bmp)
 <images/управление_удаление.png>
 
-Underfull \hbox (badness 2582) in paragraph at lines 757--758
+Underfull \hbox (badness 2582) in paragraph at lines 780--781
 []\TU/TimesNewRoman(0)/m/n/14.4 На рисунке []4.35[] показана попытка добавления
  несуществующего
  []
 
-[91]
+[94]
 File: images/управление_некорректно.png Graphic file (type bmp)
 <images/управление_некорректно.png>
 File: images/управление_успешно.png Graphic file (type bmp)
 <images/управление_успешно.png>
 File: images/профиль_окно.png Graphic file (type bmp)
 <images/профиль_окно.png>
- [92]
+ [95]
 File: images/профиль_редактирование.png Graphic file (type bmp)
 <images/профиль_редактирование.png>
 File: images/профиль_удаление.png Graphic file (type bmp)
 <images/профиль_удаление.png>
 File: images/профиль_удаление_успех.png Graphic file (type bmp)
 <images/профиль_удаление_успех.png>
- [93]
+ [96]
 File: images/ошибка_сессия.png Graphic file (type bmp)
 <images/ошибка_сессия.png>
 File: images/конец_сессии.png Graphic file (type bmp)
 <images/конец_сессии.png>
- [94]
+ [97]
 File: images/сортировка_проверка.png Graphic file (type bmp)
 <images/сортировка_проверка.png>
- [95]) (Заключение.tex) (СписокИсточников.tex [96] [97]
-[98]
+ [98]) (Заключение.tex) (СписокИсточников.tex [99] [100]
+[101]
 Underfull \hbox (badness 1681) in paragraph at lines 59--60
 []\TU/TimesNewRoman(0)/m/n/14.4 Макфарланд, Д. Новая большая книга CSS / Д. Мак
 фарланд –
  []
 
-[99] [100]
+[102] [103]
 LaTeX Font Info:    Font shape `TU/Verdana(0)/m/n' will be
 (Font)              scaled to size 10.07994pt on input line 100.
 
@@ -1439,54 +2163,61 @@ Underfull \hbox (badness 3068) in paragraph at lines 110--111
 ][] [] [][][][][][][][][][] [] [][][] [] [][][][][]$[] (дата обращения:
  []
 
-[101]) (Плакаты.tex [102] [103]
+[104]) (Плакаты.tex [105] [106]
 File: images/плакатТитульный.eps Graphic file (type eps)
 <images/плакатТитульный.eps>
 File: images/плакатЦельИЗадачи.eps Graphic file (type eps)
 <images/плакатЦельИЗадачи.eps>
- [104
+ [107
 
 ]
 File: images/плакатПрецеденты.eps Graphic file (type eps)
 <images/плакатПрецеденты.eps>
- [105]
+ [108]
 File: images/плакатКомпоненты.eps Graphic file (type eps)
 <images/плакатКомпоненты.eps>
- [106]
+ [109]
 File: images/плакатER.eps Graphic file (type eps)
 <images/плакатER.eps>
- [107]
+ [110]
 File: images/плакатМодули.eps Graphic file (type eps)
 <images/плакатМодули.eps>
- [108] [109]) (Код.tex
+ [111]
+File: images/плакатИнтерфейс.eps Graphic file (type eps)
+<images/плакатИнтерфейс.eps>
+ [112]
+File: images/плакатЗаключение.eps Graphic file (type eps)
+<images/плакатЗаключение.eps>
+ [113]
+[114]) (Код.tex
 (C:\Users\TheCaptivatingSky_\AppData\Local\Programs\MiKTeX\tex/latex/listings\l
 stlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 4.
- (App.jsx [110
+ (App.jsx [115
 
-] [111] [112] [113] [114] [115] [116]) [117]
+] [116] [117] [118] [119] [120] [121]) [122]
 Overfull \hbox (4.70218pt too wide) in paragraph at lines 12--27
 [] 
  []
 
-) [118] (main.aux)
+) [123] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C6725B90C4ED290F4F43AC51757CA09D;24247.
+(rerunfilecheck)             Checksum: 2EAB3557A21ACE0B2CF6E63054C8C0F4;24247.
  ) 
 Here is how much of TeX's memory you used:
- 16975 strings out of 409617
- 333705 string characters out of 5771373
+ 16989 strings out of 409617
+ 333962 string characters out of 5771373
  2187191 words of memory out of 5000000
- 38778 multiletter control sequences out of 15000+600000
+ 38790 multiletter control sequences out of 15000+600000
  559598 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,16n,110p,1407b,2156s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (118 pages).
+Output written on main.pdf (123 pages).

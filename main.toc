@@ -57,38 +57,38 @@
 \contentsline {subsubsection}{\numberline {3.4.3}Клиентские сервисы}{45}{subsubsection.3.4.3}%
 \contentsline {subsubsection}{\numberline {3.4.4}Управление состоянием и стилизация}{46}{subsubsection.3.4.4}%
 \contentsline {subsubsection}{\numberline {3.4.5}Точка входа и конфигурация БД}{46}{subsubsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.5}Структура базы данных}{48}{subsection.3.5}%
-\contentsline {section}{\numberline {4}Рабочий проект}{55}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Спецификация системы}{55}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}Модуль App.jsx}{55}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Модуль index.css}{56}{subsubsection.4.1.2}%
-\contentsline {subsubsection}{\numberline {4.1.3}Модуль main.jsx}{56}{subsubsection.4.1.3}%
+\contentsline {subsection}{\numberline {3.5}Структура базы данных}{49}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Рабочий проект}{56}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Спецификация системы}{56}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Модуль App.jsx}{56}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Модуль index.css}{57}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Модуль main.jsx}{57}{subsubsection.4.1.3}%
 \contentsline {subsubsection}{\numberline {4.1.4}Модуль store.js}{57}{subsubsection.4.1.4}%
 \contentsline {subsubsection}{\numberline {4.1.5}Модуль projectsPanel.jsx}{58}{subsubsection.4.1.5}%
 \contentsline {subsubsection}{\numberline {4.1.6}Модуль settingsPanel.jsx}{59}{subsubsection.4.1.6}%
-\contentsline {subsubsection}{\numberline {4.1.7}Модуль authPage.jsx}{59}{subsubsection.4.1.7}%
+\contentsline {subsubsection}{\numberline {4.1.7}Модуль authPage.jsx}{60}{subsubsection.4.1.7}%
 \contentsline {subsubsection}{\numberline {4.1.8}Модуль taskPage.jsx}{61}{subsubsection.4.1.8}%
 \contentsline {subsubsection}{\numberline {4.1.9}Модуль userProfilePage.jsx}{61}{subsubsection.4.1.9}%
 \contentsline {subsubsection}{\numberline {4.1.10}Модуль layoutObject.jsx}{62}{subsubsection.4.1.10}%
-\contentsline {subsubsection}{\numberline {4.1.11}Модуль taskObject.jsx}{63}{subsubsection.4.1.11}%
-\contentsline {subsubsection}{\numberline {4.1.12}Модуль tooltipObject.jsx}{64}{subsubsection.4.1.12}%
+\contentsline {subsubsection}{\numberline {4.1.11}Модуль taskObject.jsx}{62}{subsubsection.4.1.11}%
+\contentsline {subsubsection}{\numberline {4.1.12}Модуль tooltipObject.jsx}{63}{subsubsection.4.1.12}%
 \contentsline {subsubsection}{\numberline {4.1.13}Модуль boardObject.jsx}{64}{subsubsection.4.1.13}%
-\contentsline {subsubsection}{\numberline {4.1.14}Модуль editBoardModal.jsx}{65}{subsubsection.4.1.14}%
-\contentsline {subsubsection}{\numberline {4.1.15}Модуль editProfileModal.jsx}{66}{subsubsection.4.1.15}%
-\contentsline {subsubsection}{\numberline {4.1.16}Модуль editProjectModal.jsx}{66}{subsubsection.4.1.16}%
-\contentsline {subsubsection}{\numberline {4.1.17}Модуль editTaskModal.jsx}{67}{subsubsection.4.1.17}%
-\contentsline {subsubsection}{\numberline {4.1.18}Модуль manageMembersModal.jsx}{68}{subsubsection.4.1.18}%
-\contentsline {subsubsection}{\numberline {4.1.19}Модуль modalObject.jsx}{69}{subsubsection.4.1.19}%
-\contentsline {subsubsection}{\numberline {4.1.20}Модуль addBoardModal.jsx}{70}{subsubsection.4.1.20}%
-\contentsline {subsubsection}{\numberline {4.1.21}Модуль addProjectModal.jsx}{70}{subsubsection.4.1.21}%
-\contentsline {subsubsection}{\numberline {4.1.22}Модуль alertModal.jsx}{71}{subsubsection.4.1.22}%
-\contentsline {subsubsection}{\numberline {4.1.23}Модуль confirmModal.jsx}{72}{subsubsection.4.1.23}%
-\contentsline {subsubsection}{\numberline {4.1.24}Модуль server.js}{72}{subsubsection.4.1.24}%
-\contentsline {subsubsection}{\numberline {4.1.25}Модуль tokenService.js}{73}{subsubsection.4.1.25}%
-\contentsline {subsubsection}{\numberline {4.1.26}Модуль apiService.js}{73}{subsubsection.4.1.26}%
-\contentsline {subsection}{\numberline {4.2}Функциональное тестирование веб-приложения}{74}{subsection.4.2}%
-\contentsline {section}{ЗАКЛЮЧЕНИЕ}{96}{section*.55}%
-\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{96}{Item.213}%
-\contentsline {section}{ПРИЛОЖЕНИЕ А\ Представление графического материала}{103}{section*.57}%
-\contentsline {section}{ПРИЛОЖЕНИЕ Б\ Фрагменты исходного кода программы}{110}{section*.64}%
-\contentsline {section}{На отдельных листах (CD-RW в прикрепленном конверте)}{118}{lstnumber.-1.337}%
+\contentsline {subsubsection}{\numberline {4.1.14}Модуль editBoardModal.jsx}{64}{subsubsection.4.1.14}%
+\contentsline {subsubsection}{\numberline {4.1.15}Модуль editProfileModal.jsx}{65}{subsubsection.4.1.15}%
+\contentsline {subsubsection}{\numberline {4.1.16}Модуль editProjectModal.jsx}{65}{subsubsection.4.1.16}%
+\contentsline {subsubsection}{\numberline {4.1.17}Модуль editTaskModal.jsx}{66}{subsubsection.4.1.17}%
+\contentsline {subsubsection}{\numberline {4.1.18}Модуль manageMembersModal.jsx}{67}{subsubsection.4.1.18}%
+\contentsline {subsubsection}{\numberline {4.1.19}Модуль modalObject.jsx}{67}{subsubsection.4.1.19}%
+\contentsline {subsubsection}{\numberline {4.1.20}Модуль addBoardModal.jsx}{68}{subsubsection.4.1.20}%
+\contentsline {subsubsection}{\numberline {4.1.21}Модуль addProjectModal.jsx}{69}{subsubsection.4.1.21}%
+\contentsline {subsubsection}{\numberline {4.1.22}Модуль alertModal.jsx}{69}{subsubsection.4.1.22}%
+\contentsline {subsubsection}{\numberline {4.1.23}Модуль confirmModal.jsx}{70}{subsubsection.4.1.23}%
+\contentsline {subsubsection}{\numberline {4.1.24}Модуль server.js}{70}{subsubsection.4.1.24}%
+\contentsline {subsubsection}{\numberline {4.1.25}Модуль tokenService.js}{76}{subsubsection.4.1.25}%
+\contentsline {subsubsection}{\numberline {4.1.26}Модуль apiService.js}{76}{subsubsection.4.1.26}%
+\contentsline {subsection}{\numberline {4.2}Функциональное тестирование веб-приложения}{77}{subsection.4.2}%
+\contentsline {section}{ЗАКЛЮЧЕНИЕ}{99}{section*.55}%
+\contentsline {section}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}{99}{Item.213}%
+\contentsline {section}{ПРИЛОЖЕНИЕ А\ Представление графического материала}{106}{section*.57}%
+\contentsline {section}{ПРИЛОЖЕНИЕ Б\ Фрагменты исходного кода программы}{115}{section*.66}%
+\contentsline {section}{На отдельных листах (CD-RW в прикрепленном конверте)}{123}{lstnumber.-1.337}%

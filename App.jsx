@@ -1,5 +1,3 @@
-// App.jsx
-// Главный компонент приложения
 import React, { useState, useEffect, useCallback } from 'react';
 import { jwtDecode } from 'jwt-decode';
 import LayoutObject from "./components/pages/layoutObject.jsx";

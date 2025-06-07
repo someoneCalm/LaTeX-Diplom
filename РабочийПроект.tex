@@ -4,7 +4,7 @@
 Модуль App.jsx реализует главный компонент приложения, который управляет аутентификацией, начальной загрузкой данных и навигацией между различными представлениями приложения, такими как доска Kanban, профиль пользователя и страница аутентификации. Он координирует общее состояние приложения и обрабатывает глобальные задачи, такие как истечение сессии и обновление данных. В таблице \ref{appjsx:table} приведено описание состояний модуля.
 
 \renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{4cm}|X|}
 	\caption{Описание состояний, используемых в App.jsx\label{appjsx:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название состояния & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание состояния \\\hline
 	\endfirsthead
@@ -12,28 +12,18 @@
 	\finishhead
 	isAuthenticated & Логический флаг для отслеживания, аутентифицирован ли пользователь в данный момент. \\ \hline
 	isLoadingData & Логический флаг, указывающий, когда приложение находится в процессе загрузки начальных данных. \\ \hline
-	isAddProjectModalOpenFromEmptyState & Логический флаг для управления видимостью модального окна Добавить проект, когда у пользователя нет проектов. \\ \hline
+	isAddProjectModal-OpenFromEmpty-State & Логический флаг для управления видимостью модального окна Добавить проект, когда у пользователя нет проектов. \\ \hline
 	tokenExpiredAlert & Состояние для модального окна оповещения об истечении срока действия токена, полученное из useStore. \\ \hline
 	registrationAlert & Состояние для модального окна оповещения об успешной регистрации, полученное из useStore. \\ \hline
 	projects & Массив, содержащий все проекты, доступные пользователю, полученный из useStore. \\ \hline
 	currentProjectId & ID текущего выбранного проекта, полученный из useStore. \\ \hline
 	dataRefreshTrigger & Счетчик, который при изменении запускает повторную загрузку данных, полученный из useStore. \\ \hline
 	appView & Строка, определяющая текущее активное представление в приложении (например, kanban, profile), полученная из useStore. \\ \hline
-	logoutConfirmModal & Состояние для модального окна подтверждения выхода, полученное из useStore. \\ \hline
+	logoutConfirmMo-dal & Состояние для модального окна подтверждения выхода, полученное из useStore. \\ \hline
 \end{xltabular}
 
 \subsubsection{Модуль index.css}
 Модуль index.css реализует глобальные и утилитные стили для приложения с использованием Tailwind CSS. Он определяет базовые стили, пользовательские стили для полос прокрутки и корректировки макета для всего приложения.
-
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
-	\caption{Описание параметров функций, используемых в index.css\label{indexcss:table}}\\
-	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название параметра & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание параметра \\\hline
-	\endfirsthead
-	\caption*{Продолжение таблицы \ref{indexcss:table}}\\ \hline
-	\finishhead
-	\multicolumn{2}{|c|}{Нет} \\ \hline
-\end{xltabular}
 
 \subsubsection{Модуль main.jsx}
 Модуль main.jsx реализует точку входа в приложение React. Он импортирует главный компонент App и глобальный CSS-файл, а затем отображает компонент App в элементе DOM с идентификатором root.
@@ -41,8 +31,7 @@
 \subsubsection{Модуль store.js}
 Модуль store.js реализует глобальное управление состоянием приложения с использованием Zustand. Он определяет центральное хранилище, включая переменные состояния и действия для управления проектами, досками, задачами, профилями пользователей, представлением приложения и различными состояниями пользовательского интерфейса, такими как модальные окна и оповещения. Он также включает в себя промежуточное ПО для сохранения частей состояния в локальное хранилище. В таблице \ref{storejs:table} приведено описание состояний модуля.
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{4cm}|X|}
 	\caption{Описание состояний, используемых в store.js\label{storejs:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название состояния & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание состояния \\\hline
 	\endfirsthead
@@ -59,44 +48,41 @@
 	boards & Массив, содержащий все доски для всех проектов пользователя. \\ \hline
 	tasks & Массив, содержащий все задачи для всех проектов пользователя. \\ \hline
 	registrationAlert & Объект для управления состоянием модального окна оповещения о регистрации (показать, заголовок, сообщение). \\ \hline
-	logoutConfirmModal & Объект для управления состоянием модального окна подтверждения выхода. \\ \hline
+	logoutConfirmMo-dal & Объект для управления состоянием модального окна подтверждения выхода. \\ \hline
 	tokenExpiredAlert & Объект для управления состоянием модального окна оповещения об истечении срока действия токена. \\ \hline
 \end{xltabular}
 
 \subsubsection{Модуль projectsPanel.jsx}
 Модуль projectsPanel.jsx реализует компонент React, который отображает выпадающий список доступных проектов. Он позволяет пользователю просматривать и переключаться между различными проектами, обновляя текущий выбранный идентификатор проекта в приложении. В таблице \ref{projectspaneljsx:table} приведено описание состояний модуля.
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{3.6cm}|X|}
 	\caption{Описание состояний, используемых в projectsPanel.jsx\label{projectspaneljsx:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название состояния & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание состояния \\\hline
 	\endfirsthead
 	\caption*{Продолжение таблицы \ref{projectspaneljsx:table}}\\ \hline
 	\finishhead
-	selectedProjectIdForDropdown & Хранит идентификатор проекта, выбранного в данный момент в выпадающем меню, для управления контролируемым вводом компонента. \\ \hline
+	selectedProjectId-ForDropdown & Хранит идентификатор проекта, выбранного в данный момент в выпадающем меню, для управления контролируемым вводом компонента. \\ \hline
 \end{xltabular}
 
 \subsubsection{Модуль settingsPanel.jsx}
 Модуль settingsPanel.jsx реализует компонент боковой панели, который предоставляет действия пользователя и навигацию. Он включает кнопки для добавления задач, просмотра профиля пользователя, управления проектами и досками, а также выхода из системы. Доступ к определенным действиям контролируется на основе прав пользователя (владелец или администратор). В таблице \ref{settingspaneljsx:table} приведено описание состояний модуля.
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{4cm}|X|}
 	\caption{Описание состояний, используемых в settingsPanel.jsx\label{settingspaneljsx:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название состояния & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание состояния \\\hline
 	\endfirsthead
 	\caption*{Продолжение таблицы \ref{settingspaneljsx:table}}\\ \hline
 	\finishhead
-	isAddBoardModalOpen & Логический флаг для управления видимостью модального окна Добавить доску. \\ \hline
-	isAddProjectModalOpen & Логический флаг для управления видимостью модального окна Добавить проект. \\ \hline
-	isEditProjectModalOpen & Логический флаг для управления видимостью модального окна Редактировать проект. \\ \hline
-	isManageMembersModalOpen & Логический флаг для управления видимостью модального окна Управление участниками. \\ \hline
+	isAddBoardModal-Open & Логический флаг для управления видимостью модального окна Добавить доску. \\ \hline
+	isAddProjectModal-Open & Логический флаг для управления видимостью модального окна Добавить проект. \\ \hline
+	isEditProjectModal-Open & Логический флаг для управления видимостью модального окна Редактировать проект. \\ \hline
+	isManageMembers-ModalOpen & Логический флаг для управления видимостью модального окна Управление участниками. \\ \hline
 \end{xltabular}
 
 \subsubsection{Модуль authPage.jsx}
 Модуль authPage.jsx реализует компонент для аутентификации пользователя, обрабатывающий как вход, так и регистрацию. Он включает форму, которая динамически адаптируется для любого из этих представлений, с клиентской валидацией пользовательских вводов, таких как электронная почта и пароль. В таблице \ref{authpagejsx:table} приведено описание состояний модуля.
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{3.7cm}|X|}
 	\caption{Описание состояний, используемых в authPage.jsx\label{authpagejsx:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название состояния & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание состояния \\\hline
 	\endfirsthead
@@ -115,17 +101,16 @@
 	lastNameError & Хранит сообщение об ошибке для поля фамилии. \\ \hline
 	emailError & Хранит сообщение об ошибке для поля электронной почты. \\ \hline
 	passwordError & Хранит сообщение об ошибке для поля пароля. \\ \hline
-	confirmPasswordError & Хранит сообщение об ошибке для поля подтверждения пароля. \\ \hline
-	generalSubmitError & Хранит общее сообщение об ошибке при неудачной отправке формы. \\ \hline
+	confirmPassword-Error & Хранит сообщение об ошибке для поля подтверждения пароля. \\ \hline
+	generalSubmitErr-or & Хранит общее сообщение об ошибке при неудачной отправке формы. \\ \hline
 	passwordCriteria & Массив объектов, представляющих критерии валидации пароля и их текущий статус (выполнено или нет). \\ \hline
-	showPasswordCriteria & Логический флаг для управления видимостью списка требований к паролю. \\ \hline
+	showPasswordCri-teria & Логический флаг для управления видимостью списка требований к паролю. \\ \hline
 \end{xltabular}
 
 \subsubsection{Модуль taskPage.jsx}
 Модуль taskPage.jsx реализует компонент, который отображает детальное представление одной выбранной задачи. Он показывает все атрибуты задачи, такие как описание, приоритет, срок выполнения и назначенных пользователей. Он также предоставляет действия для редактирования, удаления или назначения ролей для задачи. В таблице \ref{taskpagejsx:table} приведено описание состояний модуля.
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{3.5cm}|X|}
 	\caption{Описание состояний, используемых в taskPage.jsx\label{taskpagejsx:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название состояния & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание состояния \\\hline
 	\endfirsthead
@@ -133,14 +118,13 @@
 	\finishhead
 	alertInfo & Объект для управления состоянием модального окна оповещения (показать, сообщение, заголовок). \\ \hline
 	isEditModalOpen & Логический флаг для управления видимостью модального окна Редактировать задачу. \\ \hline
-	isDeleteConfirmOpen & Логический флаг для управления видимостью модального окна подтверждения удаления. \\ \hline
+	isDeleteConfirm-Open & Логический флаг для управления видимостью модального окна подтверждения удаления. \\ \hline
 \end{xltabular}
 
 \subsubsection{Модуль userProfilePage.jsx}
 Модуль userProfilePage.jsx реализует компонент, который отображает информацию о профиле текущего вошедшего в систему пользователя. Он извлекает данные пользователя и предоставляет опции для редактирования профиля или удаления учетной записи пользователя. В таблице \ref{userprofilepagejsx:table} приведено описание состояний модуля.
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{3.5cm}|X|}
 	\caption{Описание состояний, используемых в userProfilePage.jsx\label{userprofilepagejsx:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название состояния & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание состояния \\\hline
 	\endfirsthead
@@ -149,28 +133,26 @@
 	isLoading & Логический флаг, указывающий, когда извлекаются данные профиля пользователя. \\ \hline
 	error & Хранит любое сообщение об ошибке, возникающее при извлечении данных профиля. \\ \hline
 	isEditModalOpen & Логический флаг для управления видимостью модального окна Редактировать профиль. \\ \hline
-	isDeleteConfirmOpen & Логический флаг для управления видимостью модального окна подтверждения удаления учетной записи. \\ \hline
+	isDeleteConfirm-Open & Логический флаг для управления видимостью модального окна подтверждения удаления учетной записи. \\ \hline
 	generalAlert & Объект для управления состоянием общего модального окна оповещения (показать, сообщение, заголовок). \\ \hline
 \end{xltabular}
 
 \subsubsection{Модуль layoutObject.jsx}
 Модуль layoutObject.jsx реализует основной компонент макета, который организует главный интерфейс приложения после входа в систему. Он объединяет панель настроек, панель проектов и основную область контента, которая может отображать либо представление доски Kanban, либо детальное представление задачи. Он также управляет логикой перетаскивания для задач и досок. В таблице \ref{layoutobjectjsx:table} приведено описание состояний модуля.
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{3.5cm}|X|}
 	\caption{Описание состояний, используемых в layoutObject.jsx\label{layoutobjectjsx:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название состояния & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание состояния \\\hline
 	\endfirsthead
 	\caption*{Продолжение таблицы \ref{layoutobjectjsx:table}}\\ \hline
 	\finishhead
-	isAddTaskModalOpen & Логический флаг для управления видимостью модального окна Добавить задачу. \\ \hline
+	isAddTaskModal-Open & Логический флаг для управления видимостью модального окна Добавить задачу. \\ \hline
 \end{xltabular}
 
 \subsubsection{Модуль taskObject.jsx}
 Модуль taskObject.jsx реализует одну карточку задачи на доске Kanban. Она перетаскиваемая и отображает ключевую информацию о задаче, такую как заголовок, тип, приоритет и срок выполнения. Нажатие на карточку переводит пользователя в детальное представление задачи. В таблицах \ref{taskobject1:table}, \ref{taskobject2:table} и \ref{taskobject3:table} приведено описание параметров функций модуля.
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{3cm}|X|}
 	\caption{Описание параметров функции TaskObject в taskObject.jsx\label{taskobject1:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название параметра & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание параметра \\\hline
 	\endfirsthead
@@ -180,8 +162,7 @@
 	state: taskProp & Объект, содержащий все данные для отображаемой задачи. \\ \hline
 \end{xltabular}
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{2.5cm}|X|}
 	\caption{Описание параметров функции getCardBgColorByType в taskObject.jsx\label{taskobject2:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название параметра & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание параметра \\\hline
 	\endfirsthead
@@ -190,8 +171,7 @@
 	typeValue & Строковое значение типа задачи (например, FRONTEND, BACKEND). \\ \hline
 \end{xltabular}
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{2.5cm}|X|}
 	\caption{Описание параметров функции getUserShortDisplay в taskObject.jsx\label{taskobject3:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название параметра & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание параметра \\\hline
 	\endfirsthead
@@ -204,8 +184,7 @@
 \subsubsection{Модуль tooltipObject.jsx}
 Модуль tooltipObject.jsx реализует многоразовый компонент, который предоставляет простую текстовую подсказку при наведении на любой дочерний элемент, который он оборачивает. В таблице \ref{tooltipobjectjsx:table} приведено описание состояний модуля.
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{2.5cm}|X|}
 	\caption{Описание состояний, используемых в tooltipObject.jsx\label{tooltipobjectjsx:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название состояния & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание состояния \\\hline
 	\endfirsthead
@@ -217,8 +196,7 @@
 \subsubsection{Модуль boardObject.jsx}
 Модуль boardObject.jsx реализует одну колонку (доску) в представлении Kanban. Это перетаскиваемый контейнер, который содержит и отображает список задач. Он также предоставляет функциональность для редактирования деталей доски. В таблице \ref{boardobjectjsx:table} приведено описание состояний модуля.
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{3.5cm}|X|}
 	\caption{Описание состояний, используемых в boardObject.jsx\label{boardobjectjsx:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название состояния & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание состояния \\\hline
 	\endfirsthead
@@ -230,8 +208,7 @@
 \subsubsection{Модуль editBoardModal.jsx}
 Модуль editBoardModal.jsx реализует модальный компонент для редактирования деталей (заголовка и описания) существующей доски. Он также содержит функциональность для удаления доски. В таблице \ref{editboardmodaljsx:table} приведено описание состояний модуля.
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{2.75cm}|X|}
 	\caption{Описание состояний, используемых в editBoardModal.jsx\label{editboardmodaljsx:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название состояния & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание состояния \\\hline
 	\endfirsthead
@@ -241,14 +218,14 @@
 	description & Хранит значение поля ввода описания доски. \\ \hline
 	isAlertOpen & Логический флаг для управления видимостью модального окна оповещения для уведомлений. \\ \hline
 	alertMessage & Хранит сообщение, которое будет отображаться в модальном окне оповещения. \\ \hline
-	populatedForBoardId & Хранит идентификатор доски, данные которой в настоящее время заполнены в модальном окне, чтобы предотвратить повторное отображение со старыми данными. \\ \hline
+	populatedFor-BoardId & Хранит идентификатор доски, данные которой в настоящее время заполнены в модальном окне, чтобы предотвратить повторное отображение со старыми данными. \\ \hline
 \end{xltabular}
 
 \subsubsection{Модуль editProfileModal.jsx}
 Модуль editProfileModal.jsx реализует модальный компонент, который позволяет текущему пользователю редактировать информацию своего профиля, такую как имя и URL-адрес аватара. В таблице \ref{editprofilemodaljsx:table} приведено описание состояний модуля.
 
 \renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{2.5cm}|X|}
 	\caption{Описание состояний, используемых в editProfileModal.jsx\label{editprofilemodaljsx:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название состояния & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание состояния \\\hline
 	\endfirsthead
@@ -265,8 +242,7 @@
 \subsubsection{Модуль editProjectModal.jsx}
 Модуль editProjectModal.jsx реализует модальный компонент для редактирования деталей (названия и описания) текущего выбранного проекта. Он также включает функциональность для удаления проекта. В таблице \ref{editprojectmodaljsx:table} приведено описание состояний модуля.
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{4.2cm}|X|}
 	\caption{Описание состояний, используемых в editProjectModal.jsx\label{editprojectmodaljsx:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название состояния & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание состояния \\\hline
 	\endfirsthead
@@ -276,15 +252,14 @@
 	projectDescription & Хранит значение поля ввода описания проекта. \\ \hline
 	isSubmitting & Логический флаг, указывающий, когда выполняется запрос на обновление или удаление. \\ \hline
 	alertInfo & Объект для управления состоянием модального окна оповещения (показать, сообщение, заголовок). \\ \hline
-	confirmDeleteModalOpen & Логический флаг для управления видимостью модального окна подтверждения удаления проекта. \\ \hline
-	populatedForProjectId & Хранит идентификатор проекта, данные которого в настоящее время заполнены в модальном окне. \\ \hline
+	confirmDeleteModal-Open & Логический флаг для управления видимостью модального окна подтверждения удаления проекта. \\ \hline
+	populatedForProject-Id & Хранит идентификатор проекта, данные которого в настоящее время заполнены в модальном окне. \\ \hline
 \end{xltabular}
 
 \subsubsection{Модуль editTaskModal.jsx}
 Модуль editTaskModal.jsx реализует модальный компонент для редактирования деталей существующей задачи, включая ее заголовок, описание, срок выполнения, статус (доску) и приоритет. В таблице \ref{edittaskmodaljsx:table} приведено описание состояний модуля.
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{3.7cm}|X|}
 	\caption{Описание состояний, используемых в editTaskModal.jsx\label{edittaskmodaljsx:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название состояния & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание состояния \\\hline
 	\endfirsthead
@@ -298,22 +273,21 @@
 	canEditDueDate & Логический флаг для определения, имеет ли текущий пользователь право редактировать срок выполнения. \\ \hline
 	isAlertOpen & Логический флаг для управления видимостью модального окна оповещения. \\ \hline
 	alertMessage & Хранит сообщение для модального окна оповещения. \\ \hline
-	populatedForTaskId & Хранит идентификатор задачи, данные которой в настоящее время заполнены в модальном окне. \\ \hline
+	populatedForTask-Id & Хранит идентификатор задачи, данные которой в настоящее время заполнены в модальном окне. \\ \hline
 	minDate & Хранит минимально допустимую дату для выбора срока выполнения. \\ \hline
 \end{xltabular}
 
 \subsubsection{Модуль manageMembersModal.jsx}
 Модуль manageMembersModal.jsx реализует модальный компонент для управления участниками проекта. Он позволяет владельцам проектов или администраторам просматривать, добавлять и удалять пользователей из текущего проекта. В таблице \ref{managemembersmodaljsx:table} приведено описание состояний модуля.
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{3.1cm}|X|}
 	\caption{Описание состояний, используемых в manageMembersModal.jsx\label{managemembersmodaljsx:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название состояния & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание состояния \\\hline
 	\endfirsthead
 	\caption*{Продолжение таблицы \ref{managemembersmodaljsx:table}}\\ \hline
 	\finishhead
 	members & Массив для хранения списка текущих участников проекта. \\ \hline
-	isLoadingMembers & Логический флаг, указывающий, когда извлекается список участников. \\ \hline
+	isLoadingMem-bers & Логический флаг, указывающий, когда извлекается список участников. \\ \hline
 	emailToAdd & Хранит электронную почту пользователя для добавления в проект. \\ \hline
 	isSubmitting & Логический флаг, указывающий, когда выполняется запрос на добавление или удаление участника. \\ \hline
 	alertInfo & Объект для управления состоянием модального окна оповещения (показать, сообщение, заголовок). \\ \hline
@@ -322,8 +296,7 @@
 \subsubsection{Модуль modalObject.jsx}
 Модуль modalObject.jsx реализует общий модальный компонент, используемый специально для создания новой задачи. Он предоставляет форму для ввода всех необходимых деталей задачи, таких как заголовок, описание, доска, приоритет и срок выполнения. В таблице \ref{modalobjectjsx:table} приведено описание состояний модуля.
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{3.2cm}|X|}
 	\caption{Описание состояний, используемых в modalObject.jsx\label{modalobjectjsx:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название состояния & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание состояния \\\hline
 	\endfirsthead
@@ -343,8 +316,7 @@
 \subsubsection{Модуль addBoardModal.jsx}
 Модуль addBoardModal.jsx реализует модальный компонент, который предоставляет форму для создания новой доски (колонки) в текущем выбранном проекте. В таблице \ref{addboardmodaljsx:table} приведено описание состояний модуля.
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{2.5cm}|X|}
 	\caption{Описание состояний, используемых в addBoardModal.jsx\label{addboardmodaljsx:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название состояния & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание состояния \\\hline
 	\endfirsthead
@@ -359,15 +331,14 @@
 \subsubsection{Модуль addProjectModal.jsx}
 Модуль addProjectModal.jsx реализует модальный компонент, который предоставляет форму для создания нового проекта. В таблице \ref{addprojectmodaljsx:table} приведено описание состояний модуля.
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{3.1cm}|X|}
 	\caption{Описание состояний, используемых в addProjectModal.jsx\label{addprojectmodaljsx:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название состояния & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание состояния \\\hline
 	\endfirsthead
 	\caption*{Продолжение таблицы \ref{addprojectmodaljsx:table}}\\ \hline
 	\finishhead
 	projectName & Хранит значение поля ввода названия нового проекта. \\ \hline
-	projectDescription & Хранит значение поля ввода описания нового проекта. \\ \hline
+	projectDescrip-tion & Хранит значение поля ввода описания нового проекта. \\ \hline
 	isSubmitting & Логический флаг, указывающий, когда выполняется запрос на создание проекта. \\ \hline
 	alertInfo & Объект для управления состоянием модального окна оповещения (показать, сообщение, заголовок). \\ \hline
 \end{xltabular}
@@ -375,8 +346,7 @@
 \subsubsection{Модуль alertModal.jsx}
 Модуль alertModal.jsx реализует многоразовый модальный компонент, предназначенный для отображения простого оповещения или уведомления пользователю с заголовком и кнопкой OK для его закрытия. В таблице \ref{alertmodaljsx:table} приведено описание параметров функции модуля.
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{2cm}|X|}
 	\caption{Описание параметров функции AlertModal в alertModal.jsx\label{alertmodaljsx:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название параметра & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание параметра \\\hline
 	\endfirsthead
@@ -391,8 +361,7 @@
 \subsubsection{Модуль confirmModal.jsx}
 Модуль confirmModal.jsx реализует многоразовый модальный компонент, используемый для запроса подтверждения у пользователя перед выполнением критического действия, такого как удаление. Он предоставляет опции Подтвердить и Отмена. В таблице \ref{confirmmodaljsx:table} приведено описание параметров функции модуля.
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{2.4cm}|X|}
 	\caption{Описание параметров функции ConfirmModal в confirmModal.jsx\label{confirmmodaljsx:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название параметра & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание параметра \\\hline
 	\endfirsthead
@@ -403,16 +372,14 @@
 	onConfirm & Функция обратного вызова, выполняемая при подтверждении действия. \\ \hline
 	title & Строка для заголовка модального окна. \\ \hline
 	message & Строка с сообщением для отображения в модальном окне. \\ \hline
-	confirmButtonText & Необязательный текст для кнопки подтверждения. \\ \hline
-	cancelButtonText & Необязательный текст для кнопки отмены. \\ \hline
+	confirmBut-tonText & Необязательный текст для кнопки подтверждения. \\ \hline
+	cancelBut-tonText & Необязательный текст для кнопки отмены. \\ \hline
 \end{xltabular}
 
 \subsubsection{Модуль server.js}
-Модуль server.js реализует бэкенд-сервер для приложения, созданный с помощью Node.js и Express. Он обрабатывает API-запросы для аутентификации (регистрация, вход), управления данными (проекты, доски, задачи, пользователи) и авторизации. Он подключается к базе данных PostgreSQL для сохранения данных. В таблицах \ref{serverjs1:table}, \ref{serverjs2:table} и \ref{serverjs3:table} приведено описание параметров функций модуля.
+Модуль server.js реализует бэкенд-сервер для приложения, созданный с помощью Node.js и Express, и реализует API для приложения. Он обрабатывает API-запросы для аутентификации (регистрация, вход) и управления данными (проекты, доски, задачи, пользователи), а также подключается к базе данных PostgreSQL для сохранения данных. В таблицах \ref{serverjs1:table}, \ref{serverjs2:table} и \ref{serverjs3:table} приведено описание параметров функций модуля.
 
-
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{2.5cm}|X|}
 	\caption{Описание параметров функции isUserAdministrator в server.js\label{serverjs1:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название параметра & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание параметра \\\hline
 	\endfirsthead
@@ -421,8 +388,7 @@
 	userId & ID пользователя для проверки статуса администратора. \\ \hline
 \end{xltabular}
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{2.5cm}|X|}
 	\caption{Описание параметров функции generateToken в server.js\label{serverjs2:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название параметра & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание параметра \\\hline
 	\endfirsthead
@@ -431,8 +397,7 @@
 	user & Объект пользователя, для которого генерируется токен. \\ \hline
 \end{xltabular}
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{2.5cm}|X|}
 	\caption{Описание параметров функции authenticateToken в server.js\label{serverjs3:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название параметра & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание параметра \\\hline
 	\endfirsthead
@@ -443,14 +408,71 @@
 	next & Функция обратного вызова для перехода к следующему middleware. \\ \hline
 \end{xltabular}
 
+В таблице \ref{api:table} представлены все эндпоинты для взаимодействия с сервером.
+
+\begin{xltabular}{\textwidth}{|p{2cm}|p{3cm}|p{3.5cm}|X|X|}
+	\caption{Описание эндпоинтов API\label{api:table}}\\
+	\hline
+	\centrow Метод & \centrow Эндпоинт & \centrow Описание & \centrow Тело запроса / Параметры & \centrow Успешный ответ \\
+	\hline
+	\endfirsthead
+	\caption*{Продолжение таблицы \ref{api:table}}\\
+	\hline
+	\centrow Метод & \centrow Эндпоинт & \centrow Описание & \centrow Тело запроса / Параметры & \centrow Успешный ответ \\
+	\hline
+	\endhead
+	POST & /api/register & Создает новую учетную запись пользователя. Аутентификация не требуется. & firstName, lastName, email, password, опционально middleName. & 201 Created с объектом пользователя и токеном. \\
+	\hline
+	POST & /api/login & Аутентифициру-ет пользователя и возвращает JWT токен. Аутентификация не требуется. & email, password. & 200 OK с объектом пользователя и токеном. \\
+	\hline
+	GET & /api/users & Получение списка всех пользователей (id, email, имена). Требуется аутентификация. & Нет. & 200 OK с массивом пользователей. \\
+	\hline
+	GET & /api/users/me & Получение профиля текущего пользователя. Требуется аутентификация. & Нет. & 200 OK с объектом профиля. \\
+	\hline
+	PATCH & /api/users/me & Обновление профиля текущего пользователя. Требуется аутентификация. & firstName, lastName, middleName, avatarUrl (любое из полей). & 200 OK с обновленным объектом профиля. \\
+	\hline
+	DELETE & /api/users/me & Удаление профиля текущего пользователя. Требуется аутентификация. & Нет. & 200 OK с сообщением. \\
+	\hline
+	GET & /api/projects & Получение проектов (всех для админа, своих для пользователя). Требуется аутентификация. & Нет. & 200 OK с массивом проектов. \\
+	\hline
+	POST & /api/projects & Создание нового проекта. Требуется аутентификация. & name, description. & 201 Created с объектом нового проекта. \\
+	\hline
+	PATCH & /api/projects/ :projectId & Обновление проекта. Требуется аутентификация (Владелец/Админ). & URL: :projectId. Тело: name и/или description. & 200 OK с обновленным объектом проекта. \\
+	\hline
+	DELETE & /api/projects/ :projectId & Удаление проекта. Требуется аутентификация (Владелец/Админ). & URL: :projectId. & 200 OK с сообщением. \\
+	\hline
+	GET & /api/projects/ :projectId/ members & Получение участников проекта. Требуется аутентификация (Участник/Владелец/Админ). & URL: :projectId. & 200 OK с массивом участников. \\
+	\hline
+	POST & /api/projects/ :projectId/ members & Добавление участника в проект. Требуется аутентификация (Владелец/Админ). & URL: :projectId. Тело: email. & 201 Created с объектом участника. \\
+	\hline
+	DELETE & /api/projects/ :projectId/ members/ :memberUserId & Удаление участника из проекта. Требуется аутентификация (Владелец/Админ). & URL: :projectId, :memberUserId. & 200 OK с сообщением. \\
+	\hline
+	GET & /api/boards & Получение досок для доступных проектов. Требуется аутентификация. & Нет. & 200 OK с массивом досок. \\
+	\hline
+	POST & /api/boards & Создание новой доски. Требуется аутентификация (Владелец/Админ). & title, description, projectId. & 201 Created с объектом новой доски. \\
+	\hline
+	PATCH & /api/boards/ :boardId & Обновление доски. Требуется аутентификация (Владелец/Админ). & URL: :boardId. Тело: title, description, displayOrder. & 200 OK с обновленным объектом доски. \\
+	\hline
+	DELETE & /api/boards/ :boardId & Удаление доски. Требуется аутентификация (Владелец/Админ). & URL: :boardId. & 200 OK с сообщением. \\
+	\hline
+	GET & /api/tasks & Получение задач для доступных проектов. Требуется аутентификация. & Нет. & 200 OK с массивом задач. \\
+	\hline
+	POST & /api/tasks & Создание новой задачи. Требуется аутентификация (Участник проекта). & boardId, title, description, dueDate, priority, type. & 201 Created с объектом новой задачи. \\
+	\hline
+	PATCH & /api/tasks/ :taskId & Обновление задачи. Требуется аутентификация (Участник проекта). & URL: :taskId. Тело: любое поле задачи. & 200 OK с обновленным объектом задачи. \\
+	\hline
+	DELETE & /api/tasks/ :taskId & Удаление задачи. Требуется аутентификация (Автор/Админ). & URL: :taskId. & 200 OK с сообщением. \\
+	\hline
+\end{xltabular}
+
 \subsubsection{Модуль tokenService.js}
 Модуль tokenService.js реализует клиентский утилитарный модуль для обработки операций с JWT (JSON Web Token). Его основная функция - проверять наличие токена в локальном хранилище и не истек ли его срок действия.
 
 \subsubsection{Модуль apiService.js}
 Модуль apiService.js реализует клиентский сервисный модуль, который централизует обмен данными с API. Он предоставляет функцию authenticatedFetch, которая автоматически прикрепляет JWT пользователя к исходящим запросам и обрабатывает глобальные сбои аутентификации, такие как истекший токен, вызывая принудительный выход из системы. В таблицах \ref{apiservicejs1:table} и \ref{apiservicejs2:table} приведено описание параметров функций модуля.
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\
+\begin{xltabular}{\textwidth}{|p{2.5cm}|X|}
 	\caption{Описание параметров функции setupGlobalAuthFailureHandler в apiService.js\label{apiservicejs1:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название параметра & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание параметра \\\hline
 	\endfirsthead
@@ -459,8 +481,7 @@
 	callback & Функция обратного вызова для выполнения принудительного выхода из системы. \\ \hline
 \end{xltabular}
 
-\renewcommand{\arraystretch}{0.8}
-\begin{xltabular}{\textwidth}{|X|X|}
+\begin{xltabular}{\textwidth}{|p{2.5cm}|X|}
 	\caption{Описание параметров функции authenticatedFetch в apiService.js\label{apiservicejs2:table}}\\
 	\hline \centrow \setlength{\baselineskip}{0.7\baselineskip} Название параметра & \centrow \setlength{\baselineskip}{0.7\baselineskip} Описание параметра \\\hline
 	\endfirsthead
@@ -469,6 +490,8 @@
 	path & Путь к API эндпоинту (например, /api/users). \\ \hline
 	options & Необязательный объект с опциями для fetch-запроса. \\ \hline
 \end{xltabular}
+
+\renewcommand{\arraystretch}{1.0}
 
 \subsection{Функциональное тестирование веб-приложения}
 

@@ -106,11 +106,13 @@ PostgreSQL — это объектно-реляционная система у�
 \end{enumerate}
 
 Структура и отношения между модулями представлены на диаграмме модулей.
- \begin{figure}[ht]
-	\center{\includegraphics[width=1\linewidth]{modules_diagram}}
-	\caption{Диаграмма модулей}
-	\label{modules_diagram:image}
-\end{figure}
+ \begin{landscape}
+	\begin{figure}[ht]
+		\center{\includegraphics[width=0.9\linewidth]{modules_diagram}}
+		\caption{Диаграмма модулей}
+		\label{modules_diagram:image}
+	\end{figure}
+\end{landscape}
 
 \subsection{Структура базы данных}
 Сущности и отношения между ними отображены на ER-диаграмме.
@@ -119,6 +121,8 @@ PostgreSQL — это объектно-реляционная система у�
 	\caption{ER-диаграмма}
 	\label{er_diagram:image}
 \end{figure}
+
+В таблице \ref{users:table} приведено описание атрибутов сущности «Users».
 \begin{xltabular}{\textwidth}{|p{2.5cm}|p{4cm}|p{1.7cm}|X|}
 	\caption{Атрибуты сущности «Users»\label{users:table}}\\ \hline
 	\centrow Поле & \centrow Тип & \centrow Обяза\-тельное & \centrow Описание \\ \hline
@@ -139,6 +143,7 @@ PostgreSQL — это объектно-реляционная система у�
 	updated\_at & timestamp with time zone & \centrow да & Дата и время последнего обновления записи. \\ \hline
 \end{xltabular}
 
+В таблице \ref{projects:table} приведено описание атрибутов сущности «Projects».
 \begin{xltabular}{\textwidth}{|p{2.5cm}|p{4cm}|p{1.7cm}|X|}
 	\caption{Атрибуты сущности «Projects»\label{projects:table}}\\ \hline
 	\centrow Поле & \centrow Тип & \centrow Обяза\-тельное & \centrow Описание \\ \hline
@@ -155,6 +160,7 @@ PostgreSQL — это объектно-реляционная система у�
 	updated\_at & timestamp with time zone & \centrow да & Дата и время последнего обновления записи. \\ \hline
 \end{xltabular}
 
+В таблице \ref{projectmembers:table} приведено описание атрибутов сущности «Project Members».
 \begin{xltabular}{\textwidth}{|p{2.5cm}|p{4cm}|p{1.7cm}|X|}
 	\caption{Атрибуты сущности «Project Members»\label{projectmembers:table}}\\ \hline
 	\centrow Поле & \centrow Тип & \centrow Обяза\-тельное & \centrow Описание \\ \hline
@@ -169,6 +175,7 @@ PostgreSQL — это объектно-реляционная система у�
 	joined\_at & timestamp with time zone & \centrow да & Дата и время присоединения пользователя к проекту. \\ \hline
 \end{xltabular}
 
+В таблице \ref{boards:table} приведено описание атрибутов сущности «Boards».
 \begin{xltabular}{\textwidth}{|p{2.5cm}|p{4cm}|p{1.7cm}|X|}
 	\caption{Атрибуты сущности «Boards»\label{boards:table}}\\ \hline
 	\centrow Поле & \centrow Тип & \centrow Обяза\-тельное & \centrow Описание \\ \hline
@@ -186,6 +193,7 @@ PostgreSQL — это объектно-реляционная система у�
 	updated\_at & timestamp with time zone & \centrow да & Дата и время последнего обновления записи. \\ \hline
 \end{xltabular}
 
+В таблице \ref{taskpriorities:table} приведено описание атрибутов сущности «Task Priorities».
 \begin{xltabular}{\textwidth}{|p{2.5cm}|p{4cm}|p{1.7cm}|X|}
 	\caption{Атрибуты сущности «Task Priorities»\label{taskpriorities:table}}\\ \hline
 	\centrow Поле & \centrow Тип & \centrow Обяза\-тельное & \centrow Описание \\ \hline
@@ -199,6 +207,7 @@ PostgreSQL — это объектно-реляционная система у�
 	order\_key & integer & \centrow да & Ключ для сортировки приоритетов. \\ \hline
 \end{xltabular}
 
+В таблице \ref{tasktypes:table} приведено описание атрибутов сущности «Task Types».
 \begin{xltabular}{\textwidth}{|p{2.5cm}|p{4cm}|p{1.7cm}|X|}
 	\caption{Атрибуты сущности «Task Types»\label{tasktypes:table}}\\ \hline
 	\centrow Поле & \centrow Тип & \centrow Обяза\-тельное & \centrow Описание \\ \hline
@@ -211,6 +220,7 @@ PostgreSQL — это объектно-реляционная система у�
 	type\_name & varchar(50) & \centrow да & Название типа задачи (например, 'FRONTEND', 'BUGFIX'). \\ \hline
 \end{xltabular}
 
+В таблице \ref{tasks:table} приведено описание атрибутов сущности «Tasks».
 \begin{xltabular}{\textwidth}{|p{2.5cm}|p{4cm}|p{1.7cm}|X|}
 	\caption{Атрибуты сущности «Tasks»\label{tasks:table}}\\ \hline
 	\centrow Поле & \centrow Тип & \centrow Обяза\-тельное & \centrow Описание \\ \hline
